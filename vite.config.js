@@ -4,7 +4,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  build: {
-    outDir: 'build'
-  }
+  base:"/sample-deployment"
 })
